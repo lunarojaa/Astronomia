@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Malla Interactiva Astronomía UNAB</title>
-  <meta name="description" content="Explora la malla curricular interactiva de Licenciatura en Astronomía de la Universidad Andres Bello. Descubre requisitos por semestre y desbloquea ramos al aprobar.">
+  <title>Malla Interactiva Obstetricia UChile – Universidad de Chile</title>
+  <meta name="description" content="Explora la malla curricular interactiva de Obstetricia y Puericultura en la Universidad de Chile. Descubre requisitos por semestre y desbloquea ramos al aprobar.">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="estilos.css" />
 </head>
 
 <body>
-  <h1>Licenciatura Astronomia - UNAB</h1>
+  <h1>Obstetricia y Puericultura UChile</h1>
   <div class="malla-grid">
     <div class="semestre" id="sem1">
       <h2>1° Semestre</h2>
@@ -89,105 +89,7 @@
     h1 {
       font-family: 'Poppins', sans-serif;
       font-weight: 700;
-      color: #f5f5dc; /* crema claro */
-      text-align: center;
-      margin-bottom: 40px;
-    }
-  </style>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Malla Interactiva Astronomía UNAB – Universidad Andres Bello</title>
-  <meta name="description" content="Malla interactiva de Lic. Astronomía. Descubre requisitos por semestre y desbloquea ramos al aprobar.">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="estilo.css">
-</head>
-
-<body>
-  <h1>Licenciatura Astronomia - UNAB</h1>
-  <div class="malla-grid">
-    <div class="semestre" id="sem1">
-      <h2>1° Semestre</h2>
-      <div class="ramo" id="Filosofia" onclick="aprobar('Filosofia')">Filosofía de las Ciencias y Pensamiento Científico</div>
-      <div class="ramo" id="Calculo_dif" onclick="aprobar('Calculo_dif')">Cálculo Diferencial</div>
-      <div class="ramo" id="Algebra" onclick="aprobar('Algebra')">Álgebra</div>
-      <div class="ramo" id="Modelos_fism" onclick="aprobar('Modelos_fism')">Modelos Fisicomatematícos</div>
-      <div class="ramo" id="Programacion" onclick="aprobar('Programacion')">Programación para la Física y Astronomía</div>
-    </div>
-
-    <div class="semestre" id="sem2">
-      <h2>2° Semestre</h2>
-      <div class="ramo bloqueado" id="Epistemologia" onclick="aprobar('Epistemologia')">Epistemología de las Ciencias</div>
-      <div class="ramo bloqueado" id="Calculo_int" onclick="aprobar('Calculo_int')">Cálculo Integral</div>
-      <div class="ramo bloqueado" id="Algebra_lin" onclick="aprobar('Algebra_lin')">Álgebra Lineal</div>
-      <div class="ramo bloqueado" id="Mecanica_par" onclick="aprobar('Mecanica_par')">Mecánica de la Partícula</div>
-      <div class="ramo bloqueado" id="Habilidades" onclick="aprobar('Habilidades')">Habilidades Comunicativas</div>
-    </div>
-
-    <div class="semestre" id="sem3">
-      <h2>3° Semestre</h2>
-      <div class="ramo bloqueado" id="Calculo_var" onclick="aprobar('Calculo_var')">Cálculo en Varias Variables y Vectorial</div>
-      <div class="ramo bloqueado" id="Ecuaciones_dif" onclick="aprobar('Ecuaciones_dif')">Ecuaciones Diferenciales</div>
-      <div class="ramo bloqueado" id="Mecanica_sol" onclick="aprobar('Mecanica_sol')">Mecánica del Sólido Rígido</div>
-      <div class="ramo bloqueado" id="Ingles1" onclick="aprobar('Ingles1')">Inglés I</div>
-    </div>
-
-    <div class="semestre" id="sem4">
-      <h2>4° Semestre</h2>
-      <div class="ramo bloqueado" id="Metodos_mat" onclick="aprobar('Metodos')">Métodos Matemáticos para la Física y Astronomía</div>
-      <div class="ramo bloqueado" id="Fisica_mod" onclick="aprobar('Fisica')">Física Moderna</div>
-      <div class="ramo bloqueado" id="Electromagnetismo" onclick="aprobar('Electromagnetismo')">Electromagnetismo</div>
-      <div class="ramo bloqueado" id="Modelos_com" onclick="aprobar('Modelos')">Modelos Computacionales de Física</div>
-      <div class="ramo bloqueado" id="Ingles2" onclick="aprobar('Ingles2')">Inglés II</div>
-    </div>
-
-    <div class="semestre" id="sem5">
-      <h2>5° Semestre</h2>
-      <div class="ramo bloqueado" id="Modelos_cont" onclick="aprobar('Modelos_cont')">Modelos Contemporáneos de las Ciencias</div>
-      <div class="ramo bloqueado" id="Termodinamica" onclick="aprobar('Termodinamica')">Termodinámica</div>
-      <div class="ramo bloqueado" id="Mecanica_cla" onclick="aprobar('Mecanica_cla')">Mecánica Clásica</div>
-      <div class="ramo bloqueado" id="Astronomia" onclick="aprobar('Astronomia')">Astronomía General</div>
-      <div class="ramo bloqueado" id="Ingles3" onclick="aprobar('Ingles3')">Ingles III</div>
-    </div>
-
-    <div class="semestre" id="sem6">
-      <h2>6° Semestre</h2>
-      <div class="ramo bloqueado" id="Mecanica_cuan" onclick="aprobar('Mecanica_cuan')">Mecánica Cuántica I</div>
-      <div class="ramo bloqueado" id="Electrodinamica" onclick="aprobar('Electrodinamica')">Electrodinámica</div>
-      <div class="ramo bloqueado" id="Astrofisica" onclick="aprobar('Astrofisica')">Astrofísica Estelar</div>
-      <div class="ramo bloqueado" id="Laboratorio_as1" onclick="aprobar('Laboratorio_as')">Laboratorio de Astronomía I</div>
-      <div class="ramo bloqueado" id="Ingles4" onclick="aprobar('Ingles4')">Ingles IV</div>
-    </div>
-
-    <div class="semestre" id="sem7">
-      <h2>7° Semestre</h2>
-      <div class="ramo bloqueado" id="Laboratorio_op" onclick="aprobar('Laboratorio_op')">Laboratorio de Óptica</div>
-      <div class="ramo bloqueado" id="Astrofisica_gal" onclick="aprobar('Astrofisica_gal')">Astrofísica de Galaxias</div>
-      <div class="ramo bloqueado" id="Introduccion_cos" onclick="aprobar('Introduccion_cos')">Introducción a la Cosmología</div>
-      <div class="ramo bloqueado" id="Astroestadistica" onclick="aprobar('Astroestadistica')">Astroestadística</div>
-      <div class="ramo bloqueado" id="Laboratorio_as2" onclick="aprobar('Laboratorio_as2')">Laboratorio de Astronomía II</div>
-      <div class="ramo bloqueado" id="Electivo1" onclick="aprobar('Electivo1')">Electivo I</div>
-    </div>
-
-    <div class="semestre" id="sem8">
-      <h2>8° Semestre</h2>
-      <div class="ramo bloqueado" id="Electivo2" onclick="aprobar('Electivo2')">Electivo II</div>
-      <div class="ramo bloqueado" id="Practica" onclick="aprobar('Practica')">Práctica de Investigación</div>
-      <div class="ramo bloqueado" id="Responsabilidad" onclick="aprobar('Responsabilidad')">Responsabilidad Social</div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-
-  <style>
-    h1 {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      color: #f5f5dc; /* crema claro */
+      color: #c2185b;
       text-align: center;
       margin-bottom: 40px;
     }
