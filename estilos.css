@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fff0f5;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e6f2ff;
   margin: 0;
   padding: 20px;
 }
@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  color: #c2185b;
+  color: #1565c0;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -23,8 +23,8 @@ h1 {
 
 .semestre {
   min-width: 220px;
-  background-color: #ffe4ec;
-  border: 2px solid #f48fb1;
+  background-color: #dbeafe;
+  border: 2px solid #90caf9;
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -32,41 +32,41 @@ h1 {
 
 .semestre h2 {
   text-align: center;
-  color: #ad1457;
+  color: #0d47a1;
   font-size: 1.1em;
   margin-bottom: 12px;
-  border-bottom: 1px solid #f8bbd0;
+  border-bottom: 1px solid #bbdefb;
   padding-bottom: 6px;
 }
 
 .ramo {
-  background: linear-gradient(145deg, #f8bbd0, #ec9fb9);
-  border: 1px solid #c2185b;
+  background: linear-gradient(145deg, #bbdefb, #90caf9);
+  border: 1px solid #1565c0;
   border-radius: 8px;
   padding: 12px;
   margin-bottom: 10px;
   text-align: center;
   cursor: pointer;
-  color: #880e4f;
+  color: #0d47a1;
   font-weight: 600;
-  /* Sombra para efecto 3D */
-  box-shadow: 4px 4px 8px #c28aa2, -4px -4px 8px #ffcee1;
+  box-shadow: 4px 4px 8px #aecbfa, -4px -4px 8px #e3f2fd;
   transition: all 0.3s ease;
   user-select: none;
 }
 
 .ramo:hover {
-  background: linear-gradient(145deg, #f48fb1, #e47c9d);
-  box-shadow: 6px 6px 10px #b67288, -6px -6px 10px #ffbed4;
-  color: #5c0040;
+  background: linear-gradient(145deg, #90caf9, #64b5f6);
+  box-shadow: 6px 6px 10px #7ea9d4, -6px -6px 10px #d0e7fb;
+  color: #08306b;
   transform: translateY(-3px);
 }
 
 .ramo:active {
-  box-shadow: inset 3px 3px 5px #b67288, inset -3px -3px 5px #ffbed4;
+  box-shadow: inset 3px 3px 5px #7ea9d4, inset -3px -3px 5px #d0e7fb;
   transform: translateY(1px);
 }
 
+/* SE MANTIENE IGUAL */
 .ramo.bloqueado {
   background-color: #f3f3f3;
   color: #999;
@@ -77,10 +77,10 @@ h1 {
 }
 
 .ramo.aprobado {
-  background: linear-gradient(145deg, #d1bee7, #b695d3) !important;
-  color: #4a148c;
-  border-color: #6a1b9a;
+  background: linear-gradient(145deg, #c5cae9, #9fa8da) !important;
+  color: #1a237e;
+  border-color: #3949ab;
   text-decoration: line-through;
   font-style: italic;
-  box-shadow: 4px 4px 8px #8a69a2, -4px -4px 8px #c6aee1;
+  box-shadow: 4px 4px 8px #9ea8d8, -4px -4px 8px #d1d9ff;
 }
